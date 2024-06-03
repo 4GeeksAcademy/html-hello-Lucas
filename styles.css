@@ -1,0 +1,75 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.post {
+    width: 400px; /* Ancho del post */
+    background-color: #fff; /* Color de fondo del post */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+    overflow: hidden; /* Para ocultar cualquier parte de la imagen que sobresalga */
+}
+
+.post img {
+    object-fit: cover; /* La imagen se ajusta para cubrir el espacio asignado */
+    object-position: center; /* La imagen se posiciona en el centro */
+}
+
+.text-container {
+    padding: 20px; /* Espaciado interno */
+}
+
+.text-container div {
+    margin-bottom: 10px; /* Espacio entre las líneas de texto */
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    color: #333; /* Color del texto */
+}
+
+.post-image {
+    margin-top: 10px; /* Espacio entre la parte de texto y la imagen */
+    border-bottom-left-radius: 10px; /* Bordes redondeados para la imagen */
+    border-bottom-right-radius: 10px;
+}
+
+.post-image img {
+    width: 100%; /* La imagen ocupa todo el ancho */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.post-actions {
+    padding: 10px;
+}
+
+.post-actions i {
+    font-size: 24px; /* Tamaño de los íconos */
+    margin-right: 10px; /* Espacio entre los íconos */
+}
+.description span {
+    font-weight: bold; /* Texto en negrita */
+}
+.post-actions .bi-bookmark {
+    margin-left: right; /* Mueve el icono de guardar a la derecha */
+}
+.ellipsis {
+    margin-left: auto; /* Mueve los tres puntos a la derecha */
+    font-size: 24px; /* Tamaño de fuente de los tres puntos */
+    color: #999; /* Color de los tres puntos */
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header1 {
+    display: flex;
+
+}
+.ellipsis span{
+    font-weight: bold; /* Texto en negrita */
+
+}
