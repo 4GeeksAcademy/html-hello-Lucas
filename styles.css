@@ -68,8 +68,13 @@
 .post-header1 {
     display: flex;
 
+    align-items: center;
 }
 .ellipsis span{
     font-weight: bold; /* Texto en negrita */
 
+}
+.iconos  {
+    display: flex;
+    justify-content: space-between;
 }
